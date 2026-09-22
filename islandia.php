@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Islandia</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+
+<body>
+
+<header>
+    <h1>
+        <a href="islandia.php">Zwiedzaj Islandię</a>
+    </h1>
+</header>
+
+<aside>
+    <h3>Do zwiedzania</h3>
+
+    <ul>
+        <li>
+            Wodospady:
+            <ol>
+                #skrypt1
+            </ol>
+        </li>
+
+        <li>
+            Siedliska zwierząt:
+            <ol>
+                #skrypt2
+            </ol>
+        </li>
+    </ul>
+</aside>
+
+<main>
+    <h2>Galeria</h2>
+
+    <section>
+        #skrypt3
+    </section>
+</main>
+
+<footer>
+    <hr>
+    <p>Autor: 000000000</p>
+</footer>
+
+</body>
+</html>
+
+<?php
+mysqli_close($polaczenie);
+?>
